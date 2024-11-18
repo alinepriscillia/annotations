@@ -1,0 +1,56 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.16 
+xmax = 0.96 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "segments_text" 
+        xmin = 0.16 
+        xmax = 0.96 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0.16 
+            xmax = 0.96 
+            text = "Next passage." 
+    item [2]:
+        class = "IntervalTier" 
+        name = "segments_confidence" 
+        xmin = 0.16 
+        xmax = 0.96 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0.16 
+            xmax = 0.96 
+            text = "0.696" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "words_text" 
+        xmin = 0.16 
+        xmax = 0.96 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0.16 
+            xmax = 0.46 
+            text = "Next" 
+        intervals [2]:
+            xmin = 0.46 
+            xmax = 0.96 
+            text = "passage." 
+    item [4]:
+        class = "IntervalTier" 
+        name = "words_confidence" 
+        xmin = 0.16 
+        xmax = 0.96 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0.16 
+            xmax = 0.46 
+            text = "0.623" 
+        intervals [2]:
+            xmin = 0.46 
+            xmax = 0.96 
+            text = "0.777" 
